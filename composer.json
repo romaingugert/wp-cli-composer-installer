@@ -1,0 +1,22 @@
+{
+    "name": "wp-cli/composer-installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romain GUGERT",
+            "email": "romain.gugert@globalis-ms.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Globalis\\WP\\Composer\\WPCli\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Globalis\\WP\\Composer\\WPCli\\InstallerPlugin"
+    }
+}
